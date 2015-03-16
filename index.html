@@ -118,14 +118,14 @@ h3{
 	z-index: 1000;
 	height:100%;
 	font-family:Helvetica, Arial, sans-serif;
-	font-size:15px;
+	font-size:14px;
 	color: #fff;
 	width:280px;
 	padding: 20px 0px 0px 20px;
 }
 #legend p{margin:0px 0px 10px 0px;}
 #haz{float:left;}
-#haztext{line-height:136%;}
+#haztext{line-height:149%;}
 #haztext ul{
 	margin:0px;
 	padding:0px;
@@ -141,7 +141,10 @@ h3{
 #dam:hover{
 	opacity:1;
 }
-	
+.etc{
+	font-size:11px;
+	line-height:130%;
+}
 </style>
 <body>
 <script src="d3.min.js"></script>
@@ -156,7 +159,7 @@ h3{
 	<h1>New York State Dams</h1>
 	<p>Dam Hazard Classification</p>
 <div id="haz">
-<svg width="30" height="160">
+<svg width="30" height="100">
 	<rect x="0" y="2" width="14" height="14" fill="#2cd000"/>
 	<rect x="0" y="22" width="14" height="14" fill="#fffc00"/>
 	<rect x="0" y="42" width="14" height="14" fill="#ff0000"/>
@@ -172,6 +175,11 @@ h3{
 		<li>Class D: Negligible or no hazard</li>
 		<li>Not Defined</li>
 	</ul>
+</div>
+<div class="etc">
+	<p><br/>Width and height of each rectangles is<br/>proportionate to dam length and dam height<br/>
+		(5% of actual)
+	</p>
 </div>
 </div>
 <script>
@@ -235,8 +243,8 @@ function createMap(dataset) {
 	.attr("class", function(d) { return d.PURPOSES })
 	.attr("x", function(d) {return projection([d.longitude,d.latitude])[0]})
 	.attr("y", function(d) {return projection([d.longitude,d.latitude])[1]})
-	.attr("width", function(d){return d.DAM_LENGTH /50})
-	.attr("height", function(d){return d.DAM_HEIGHT / 5})
+	.attr("width", function(d){return d.DAM_LENGTH /20})
+	.attr("height", function(d){return d.DAM_HEIGHT / 20})
 	.on('mouseover', tip.show)
 	.on('mouseout', tip.hide);
 	zoomed();
@@ -253,8 +261,8 @@ function zoomed() {
 			d3.selectAll("#points").selectAll("rect")
 			.attr("x", function(d) {return projection([d.longitude,d.latitude])[0]})
 			.attr("y", function(d) {return projection([d.longitude,d.latitude])[1]})
-			.attr("width", function(d){return d.DAM_LENGTH /50})
-			.attr("height", function(d){return d.DAM_HEIGHT / 5})
+			.attr("width", function(d){return d.DAM_LENGTH /20})
+			.attr("height", function(d){return d.DAM_HEIGHT / 20})
   var image = layer
       .style(prefix + "transform", matrix3d(tiles.scale, tiles.translate))
     .selectAll(".tile")
