@@ -190,7 +190,7 @@ var projection = d3.geo.mercator()
 
 var zoom = d3.behavior.zoom()
     .scale(projection.scale() * 2 * Math.PI)
-    .scaleExtent([1 << 15, 1 << 25])
+    .scaleExtent([1 << 10, 1 << 25])
     .translate(projection([-76.183164, 42.795764]).map(function(x) { return -x; }))
     .on("zoom", zoomed);
 
@@ -224,18 +224,19 @@ zoomed();
 function createMap(dataset) {
 	d3.select("#points").selectAll("circle").data(dataset) //plotted locations on map
 	.enter()
-	.append("circle")
+	.append("rect")
 	.style("fill", function(d){if (d.HAZARD_COD == "A"){return "#2cd000"} // Class A is low hazard
 	else if (d.HAZARD_COD == "B"){return "#fffc00"} // Class B is intermediate hazard
 	else if (d.HAZARD_COD == "C"){return "#ff0000"} // Class C is high hazard
 	else if (d.HAZARD_COD == "D"){return "#00aee0"} // Class D is negligible or no hazard
 	else{return "#888";}	// Hazard Code has not been assigned
 	 })
-	.attr("r", 4)
 	.attr("id", "dam")
 	.attr("class", function(d) { return d.PURPOSES })
-	.attr("cx", function(d) {return projection([d.longitude,d.latitude])[0]})
-	.attr("cy", function(d) {return projection([d.longitude,d.latitude])[1]})
+	.attr("x", function(d) {return projection([d.longitude,d.latitude])[0]})
+	.attr("y", function(d) {return projection([d.longitude,d.latitude])[1]})
+	.attr("width", function(d){return d.DAM_LENGTH /50})
+	.attr("height", function(d){return d.DAM_HEIGHT / 5})
 	.on('mouseover', tip.show)
 	.on('mouseout', tip.hide);
 	zoomed();
@@ -249,10 +250,11 @@ function zoomed() {
   projection
       .scale(zoom.scale() / 2 / Math.PI)
       .translate(zoom.translate());
-			d3.selectAll("#points").selectAll("circle")
-			.attr("cx", function(d) {return projection([d.longitude,d.latitude])[0]})
-			.attr("cy", function(d) {return projection([d.longitude,d.latitude])[1]})
-			.attr("r", 4)
+			d3.selectAll("#points").selectAll("rect")
+			.attr("x", function(d) {return projection([d.longitude,d.latitude])[0]})
+			.attr("y", function(d) {return projection([d.longitude,d.latitude])[1]})
+			.attr("width", function(d){return d.DAM_LENGTH /50})
+			.attr("height", function(d){return d.DAM_HEIGHT / 5})
   var image = layer
       .style(prefix + "transform", matrix3d(tiles.scale, tiles.translate))
     .selectAll(".tile")
