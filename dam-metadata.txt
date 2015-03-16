@@ -1,0 +1,1392 @@
+from: http://gis.ny.gov/gisdata/metadata/nysdec.dams.xml
+
+
+Inventory of Dams - New York State (NYSDEC)
+
+Identification_Information
+Data_Quality_Information
+Spatial_Data_Organization_Information
+Spatial_Reference_Information
+Entity_and_Attribute_Information
+Distribution_Information
+Metadata_Reference_Information
+Identification_Information:
+Citation:
+Citation_Information:
+Originator:New York State Department of Environmental Conservation
+Originator:Division of Water
+Originator:Dam Safety Section
+Publication_Date:20091125
+Title:
+Inventory of Dams - New York State (NYSDEC)
+Geospatial_Data_Presentation_Form:vector digital data
+Publication_Information:
+Publication_Place:Albany, NY
+Publisher:New York State Department of Environmental Conservation
+Online_Linkage:http://gis.ny.gov/gisdata/inventories/details.cfm?DSID=1130
+Description:
+Abstract:
+A point file to show the location of dams in the New York State Inventory of Dams.
+A point file to show the location of dams in the New York State Inventory of Dams.
+Purpose:
+This dataset is used to show the location of dams in New York State's inventory of dams, and lists selected attributes of each dam.
+This dataset is used to show the location of dams in New York State's inventory of dams, and lists selected attributes of each dam.
+Supplemental_Information:
+1.  While we try to maintain an accurate inventory, this data should not be relied upon for emergency response decision-making.  We recommend that critical data, including dam location and hazard classification, be verified in the field.  The presence or absence of a dam in this inventory does not indicate its regulatory status.  Any corrections should be submitted to the Dam Safety Section with supporting information.
+
+2. There are approximately 15 dams not included in this dataset because they do not have X Y locations.
+Time_Period_of_Content:
+Time_Period_Information:
+Single_Date/Time:
+Calendar_Date:20140328
+Currentness_Reference:
+publication date
+publication date
+Status:
+Progress:Complete
+Maintenance_and_Update_Frequency:Annually
+Spatial_Domain:
+Bounding_Coordinates:
+West_Bounding_Coordinate:-79.982799
+East_Bounding_Coordinate:-72.112362
+North_Bounding_Coordinate:45.006295
+South_Bounding_Coordinate:40.426335
+Keywords:
+Theme:
+Theme_Keyword_Thesaurus:ISO 19115 Topic Category
+Theme_Keyword:environment
+Theme_Keyword:007
+Theme_Keyword:inlandWaters
+Theme_Keyword:012
+Theme_Keyword:structure
+Theme_Keyword:017
+Theme_Keyword:utilitiesCommunication
+Theme_Keyword:019
+Theme:
+Theme_Keyword_Thesaurus:None
+Theme_Keyword:custodial
+Theme_Keyword:dam
+Theme_Keyword:watercourse
+Theme_Keyword:flood
+Theme_Keyword:hydroelectric
+Theme_Keyword:storm water
+Theme_Keyword:recreation
+Theme_Keyword:water supply
+Place:
+Place_Keyword_Thesaurus:Geographic Names Information System <http://geonames.usgs.gov/pls/gnispublic>
+Place_Keyword:New York State
+Access_Constraints:N/A
+Use_Constraints:
+1. The NYS DEC asks to be credited in derived products.
+2. Secondary Distribution of the data is not allowed.
+3. Any documentation provided is an integral part of the data set.  Failure to use the documentation in conjunction with the digital data constitutes misuse of the data.
+4. Although every effort has been made to ensure the accuracy of information, errors may be reflected in the data supplied.  The user must be aware of data conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other conditions.
+Point_of_Contact:
+Contact_Information:
+Contact_Organization_Primary:
+Contact_Organization:New York State Department of Environmental Conservation
+Contact_Person:Division of Water, Dam Safety Section
+Contact_Address:
+Address_Type:mailing and physical address
+Address:
+625 Broadway
+625 Broadway
+Address:
+4th Floor
+4th Floor
+City:Albany
+State_or_Province:NY
+Postal_Code:12233-3504
+Country:USA
+Contact_Voice_Telephone:518-402-8151
+Data_Set_Credit:
+NYS DEC, Div. of Water, Dams Section
+NYS DEC, Div. of Water, Dams Section
+Security_Information:
+Security_Classification_System:None
+Security_Classification:Unclassified
+Security_Handling_Description:None
+Native_Data_Set_Environment:
+Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.3.1.3500
+Back to Top
+Data_Quality_Information:
+Logical_Consistency_Report:
+None
+None
+Completeness_Report:
+None
+None
+Lineage:
+Process_Step:
+Process_Description:
+A feature class is created from data extracted from the Divison of Water's Dam Safety Section database.  Latitude/Longitude in decimal degrees is calculated from the latitude/longitude degrees, minutes, seconds fields extracted from the database.  Data is then projected to NAD83, NYTM Zone 18 from GCS, WGS 1984..
+A feature class is created from data extracted from the Divison of Water's Dam Safety Section database. Latitude/Longitude in decimal degrees is calculated from the latitude/longitude degrees, minutes, seconds fields extracted from the database. Data is then projected to NAD83, NYTM Zone 18 from GCS, WGS 1984..
+Process_Date:20070501
+Process_Step:
+Process_Description:
+Updated feature class created from updated data, using latittude and longitude coordinates from the dataset, converted  into decimal degrees.
+Updated feature class created from updated data, using latittude and longitude coordinates from the dataset, converted into decimal degrees.
+Process_Date:20081027
+Process_Step:
+Process_Description:
+Updated feature class with newest data set from Dam Safety.  New data set consisted of various changes in field names and field structure.  Metadata was updated accordingly.
+Updated feature class with newest data set from Dam Safety. New data set consisted of various changes in field names and field structure. Metadata was updated accordingly.
+Process_Date:20091125
+Process_Step:
+Process_Description:
+Updated feature class with newest data set from Dam Safety.  New data set consisted of various changes in field names and field structure.  Projected the data to UTM Zone 18. Metadata was updated accordingly.
+Updated feature class with newest data set from Dam Safety. New data set consisted of various changes in field names and field structure. Projected the data to UTM Zone 18. Metadata was updated accordingly.
+Process_Date:20110912
+Process_Step:
+Process_Description:
+Updated feature class with newest data set from Dam Safety.  New data set consisted of various changes in field names and field structure.  Projected the data to UTM Zone 18. Metadata was updated accordingly.
+Updated feature class with newest data set from Dam Safety. New data set consisted of various changes in field names and field structure. Projected the data to UTM Zone 18. Metadata was updated accordingly.
+Process_Date:20130214
+Process_Step:
+Process_Description:
+Updated feature class with newest data set from Dam Safety. Projected the data to UTM Zone 18. Metadata was updated accordingly.
+Updated feature class with newest data set from Dam Safety. Projected the data to UTM Zone 18. Metadata was updated accordingly.
+Process_Date:20140213
+Process_Step:
+Process_Description:
+Updated feature class with newest data set from Dam Safety. Projected the data to UTM Zone 18. Metadata was updated accordingly.
+Updated feature class with newest data set from Dam Safety. Projected the data to UTM Zone 18. Metadata was updated accordingly.
+Process_Date:20140417
+Back to Top
+Spatial_Data_Organization_Information:
+Direct_Spatial_Reference_Method:Vector
+Point_and_Vector_Object_Information:
+SDTS_Terms_Description:
+SDTS_Point_and_Vector_Object_Type:Entity point
+Point_and_Vector_Object_Count:7029
+Back to Top
+Spatial_Reference_Information:
+Horizontal_Coordinate_System_Definition:
+Planar:
+Grid_Coordinate_System:
+Grid_Coordinate_System_Name:Universal Transverse Mercator
+Universal_Transverse_Mercator:
+UTM_Zone_Number:18
+Transverse_Mercator:
+Scale_Factor_at_Central_Meridian:0.999600
+Longitude_of_Central_Meridian:-75.000000
+Latitude_of_Projection_Origin:0.000000
+False_Easting:500000.000000
+False_Northing:0.000000
+Planar_Coordinate_Information:
+Planar_Coordinate_Encoding_Method:coordinate pair
+Coordinate_Representation:
+Abscissa_Resolution:0.000100
+Ordinate_Resolution:0.000100
+Planar_Distance_Units:meters
+Geodetic_Model:
+Horizontal_Datum_Name:North American Datum of 1983
+Ellipsoid_Name:Geodetic Reference System 80
+Semi-major_Axis:6378137.000000
+Denominator_of_Flattening_Ratio:298.257222
+Vertical_Coordinate_System_Definition:
+Altitude_System_Definition:
+Altitude_Datum_Name:NA
+Altitude_Resolution:1.000000
+Altitude_Distance_Units:NA
+Altitude_Encoding_Method:Explicit elevation coordinate included with horizontal coordinates
+Back to Top
+Entity_and_Attribute_Information:
+Detailed_Description:
+Entity_Type:
+Entity_Type_Label:Inventory of Dams - New York State (NYSDEC)
+Entity_Type_Definition:
+Point Feature Class
+Entity_Type_Definition_Source:
+ESRI
+Attribute:
+Attribute_Label:FID
+Attribute_Definition:
+Internal feature number.
+Internal feature number.
+Attribute_Definition_Source:
+ESRI
+ESRI
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Sequential unique whole numbers that are automatically generated.
+Attribute:
+Attribute_Label:COUNTY_NAM
+Attribute_Definition:
+Name of New York State county in which the dam is located.
+Name of New York State county in which the dam is located.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Names.
+Attribute:
+Attribute_Label:NAME_ONE
+Attribute_Definition:
+Official dam name.
+Official dam name.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Names.
+Attribute:
+Attribute_Label:FEDERAL_ID
+Attribute_Definition:
+The National Dam Inspection Program ID Number in the Inventory of Dams.  The first two characters are NY followed by a five digit serial number.
+The National Dam Inspection Program ID Number in the Inventory of Dams. The first two characters are NY followed by a five digit serial number.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Codeset_Domain:
+Codeset_Name:ID Number
+Codeset_Source:National Dam Inspection Program
+Attribute:
+Attribute_Label:NAME_TWO
+Attribute_Definition:
+Alternate dam name.
+Alternate dam name.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Names.
+Attribute:
+Attribute_Label:STATE_ID
+Attribute_Definition:
+Unique identifier incorporating quad sheet number and serial number of dam separated by a hyphen.
+Unique identifier incorporating quad sheet number and serial number of dam separated by a hyphen.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Unique identifier.
+Attribute:
+Attribute_Label:LAT_DEGRE
+Attribute_Definition:
+Degrees latitude of dam location.
+Degrees latitude of dam location.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Range_Domain:
+Range_Domain_Minimum:0
+Range_Domain_Maximum:90
+Attribute_Units_of_Measure:degrees
+Attribute:
+Attribute_Label:LAT_MIN
+Attribute_Definition:
+Minutes latitude of dam location.
+Minutes latitude of dam location.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Range_Domain:
+Range_Domain_Minimum:0
+Range_Domain_Maximum:60
+Attribute_Units_of_Measure:minutes
+Attribute:
+Attribute_Label:LAT_SEC
+Attribute_Definition:
+Seconds latitude of dam location.
+Seconds latitude of dam location.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Range_Domain:
+Range_Domain_Minimum:0
+Range_Domain_Maximum:60
+Attribute_Units_of_Measure:seconds
+Attribute:
+Attribute_Label:LONG_DEGRE
+Attribute_Definition:
+Degrees longitude of dam location.
+Degrees longitude of dam location.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Range_Domain:
+Range_Domain_Minimum:0
+Range_Domain_Maximum:180
+Attribute_Units_of_Measure:degrees
+Attribute:
+Attribute_Label:LONG_MIN
+Attribute_Definition:
+Minutes longitude of dam location.
+Minutes longitude of dam location.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Range_Domain:
+Range_Domain_Minimum:0
+Range_Domain_Maximum:60
+Attribute_Units_of_Measure:minutes
+Attribute:
+Attribute_Label:LONG_SEC
+Attribute_Definition:
+Seconds longitude of dam location.
+Seconds longitude of dam location.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Range_Domain:
+Range_Domain_Minimum:0
+Range_Domain_Maximum:60
+Attribute_Units_of_Measure:seconds
+Attribute:
+Attribute_Label:MUNI
+Attribute_Definition:
+The name of the municipality in which the dam is located.  May accommodate more than one municipality, each one separated by a comma.
+The name of the municipality in which the dam is located. May accommodate more than one municipality, each one separated by a comma.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Names.
+Attribute:
+Attribute_Label:FERC_INFO
+Attribute_Definition:
+FERC Project Number.
+FERC Project Number.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Unique Identifier
+Attribute:
+Attribute_Label:RIVER_STRE
+Attribute_Definition:
+The official name of the watercourse on which the dam is located.  If the stream is not named, enter as a tributary to first larger, named stream in form: TR-stream name.
+The official name of the watercourse on which the dam is located. If the stream is not named, enter as a tributary to first larger, named stream in form: TR-stream name.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Names.
+Attribute:
+Attribute_Label:NR_CITY_DI
+Attribute_Definition:
+Distance, to the nearest mile, from the dam to the nearest downstream community.
+Distance, to the nearest mile, from the dam to the nearest downstream community.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Range_Domain:
+Range_Domain_Minimum:0
+Range_Domain_Maximum:9999999999
+Attribute_Units_of_Measure:miles
+Attribute:
+Attribute_Label:CONSTR_TYP
+Attribute_Definition:
+Type of dam construction.  Field can accommodate more than one construction type, each one separated by a comma.
+Type of dam construction. Field can accommodate more than one construction type, each one separated by a comma.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:OT - Other
+Enumerated_Domain_Value_Definition:
+Some other construction type.
+Some other construction type.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:CB - Buttress
+Enumerated_Domain_Value_Definition:
+The dam is a buttress construction type.
+The dam is a buttress construction type.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:CN - Concrete Gravity
+Enumerated_Domain_Value_Definition:
+The dam is a concrete gravity construction type.
+The dam is a concrete gravity construction type.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:ER - Rockfill
+Enumerated_Domain_Value_Definition:
+The dam is a rockfill construction type.
+The dam is a rockfill construction type.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:LS - Laid Up Stone
+Enumerated_Domain_Value_Definition:
+The dam is a laid up stone construction type.
+The dam is a laid up stone construction type.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:MS - Masonry
+Enumerated_Domain_Value_Definition:
+The dam is a masonry construction type.
+The dam is a masonry construction type.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:MV - Multi-Arch
+Enumerated_Domain_Value_Definition:
+The dam is a multi-arch construction type.
+The dam is a multi-arch construction type.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:RE - Earth
+Enumerated_Domain_Value_Definition:
+The dam is an earth construction type.
+The dam is an earth construction type.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:ST - Stone
+Enumerated_Domain_Value_Definition:
+The dam is a stone construction type.
+The dam is a stone construction type.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:TC - Timber Crib
+Enumerated_Domain_Value_Definition:
+The dam is a timber crib construction type.
+The dam is a timber crib construction type.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:VA - Arch
+Enumerated_Domain_Value_Definition:
+The dam is an arch construction type.
+The dam is an arch construction type.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute:
+Attribute_Label:PURPOSES
+Attribute_Definition:
+The purpose for which the dam is used.  Field may accommodate more than one purpose, each one separated by a comma.
+The purpose for which the dam is used. Field may accommodate more than one purpose, each one separated by a comma.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Water Supply - Other
+Enumerated_Domain_Value_Definition:
+The dam is used for water supply other than primary source.
+The dam is used for water supply other than primary source.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Debris Control
+Enumerated_Domain_Value_Definition:
+The dam is used to control debris.
+The dam is used to control debris.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Fish & Wildlife Pond
+Enumerated_Domain_Value_Definition:
+The dam is used to create fish and wildlife pond.
+The dam is used to create fish and wildlife pond.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Hydroelectric
+Enumerated_Domain_Value_Definition:
+The dam is used to produce hydroelectric power.
+The dam is used to produce hydroelectric power.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Irrigation
+Enumerated_Domain_Value_Definition:
+The dam is used to supply water for irrigation.
+The dam is used to supply water for irrigation.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Navigation
+Enumerated_Domain_Value_Definition:
+The dam is used to supply water for navigation.
+The dam is used to supply water for navigation.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Other
+Enumerated_Domain_Value_Definition:
+The dam is used for some other purpose.
+The dam is used for some other purpose.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Fire Protection, Livestock, or Farm Pond
+Enumerated_Domain_Value_Definition:
+The dam is used to supply water for fire protection, livestock,irrigation, or is a farm pond dam.
+The dam is used to supply water for fire protection, livestock,irrigation, or is a farm pond dam.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Recreation
+Enumerated_Domain_Value_Definition:
+The dam is used to contain water for recreation.
+The dam is used to contain water for recreation.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Water Supply - Primary
+Enumerated_Domain_Value_Definition:
+The dam is used as a primary source water supply.
+The dam is used as a primary source water supply.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Tailings
+Enumerated_Domain_Value_Definition:
+The dam is used to contain tailings waste.
+The dam is used to contain tailings waste.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Flood Control/Storm Water Management
+Enumerated_Domain_Value_Definition:
+The dam is used for flood control or for storm water management.
+The dam is used for flood control or for storm water management.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute:
+Attribute_Label:YEARBUILT
+Attribute_Definition:
+The year original construction was completed, or the year of the latest major reconstruction.
+The year original construction was completed, or the year of the latest major reconstruction.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Dates.
+Attribute:
+Attribute_Label:DAM_LENGTH
+Attribute_Definition:
+Crest length, in feet, of the dam.  Total horizontal distance measured along the axis at the elevation of the top of the dam between the ends of the dam.  This includes spillways, power house sections, and navigation locks where they form part of the dam retaining structure.
+Crest length, in feet, of the dam. Total horizontal distance measured along the axis at the elevation of the top of the dam between the ends of the dam. This includes spillways, power house sections, and navigation locks where they form part of the dam retaining structure.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Range_Domain:
+Range_Domain_Minimum:0
+Range_Domain_Maximum:9999999999
+Attribute_Units_of_Measure:feet
+Attribute:
+Attribute_Label:DAM_HEIGHT
+Attribute_Definition:
+Height, in feet to the nearest foot, of the vertical distance of the dam from the lowest point on the crest of the dam to the lowest point in the original streambed.
+Height, in feet to the nearest foot, of the vertical distance of the dam from the lowest point on the crest of the dam to the lowest point in the original streambed.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Range_Domain:
+Range_Domain_Minimum:0
+Range_Domain_Maximum:9999999999
+Attribute_Units_of_Measure:feet
+Attribute:
+Attribute_Label:MAX_DISCHR
+Attribute_Definition:
+The number of cubic feet per second which the spillway is capable of discharging when the reservoir is at its maximum designed water surface elevation.
+The number of cubic feet per second which the spillway is capable of discharging when the reservoir is at its maximum designed water surface elevation.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Range_Domain:
+Range_Domain_Minimum:0
+Range_Domain_Maximum:9999999999
+Attribute_Units_of_Measure:cubic feet per second
+Attribute:
+Attribute_Label:MAX_STORAG
+Attribute_Definition:
+Volume impounded by the dam, in acre feet, at the maximum attainable water surface elevation.
+Volume impounded by the dam, in acre feet, at the maximum attainable water surface elevation.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Range_Domain:
+Range_Domain_Minimum:0
+Range_Domain_Maximum:9999999999
+Attribute_Units_of_Measure:acre feet
+Attribute:
+Attribute_Label:NORMAL_STO
+Attribute_Definition:
+Volume impounded by the dam, in acre feet, at the elevation of a single or service spillway.
+Volume impounded by the dam, in acre feet, at the elevation of a single or service spillway.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Range_Domain:
+Range_Domain_Minimum:0
+Range_Domain_Maximum:9999999999
+Attribute_Units_of_Measure:acre feet
+Attribute:
+Attribute_Label:SURFACE_AR
+Attribute_Definition:
+Reservoir surface area, in acres, at pool elevation of a single or service spillway.
+Reservoir surface area, in acres, at pool elevation of a single or service spillway.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Range_Domain:
+Range_Domain_Minimum:0
+Range_Domain_Maximum:9999999999
+Attribute_Units_of_Measure:acres
+Attribute:
+Attribute_Label:DRAINAGE_A
+Attribute_Definition:
+The area that draws to the dam on a river or stream, in square miles.
+The area that draws to the dam on a river or stream, in square miles.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Range_Domain:
+Range_Domain_Minimum:0
+Range_Domain_Maximum:9999999999
+Attribute_Units_of_Measure:square miles
+Attribute:
+Attribute_Label:OWNERS
+Attribute_Definition:
+The name of the owner(s).  Field can accommodate more than one owner, each one separated by a comma.
+The name of the owner(s). Field can accommodate more than one owner, each one separated by a comma.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Names.
+Attribute:
+Attribute_Label:P1_INSP_DE
+Attribute_Definition:
+Army Corps of Engineers Phase I Inspection Report program results description.
+Army Corps of Engineers Phase I Inspection Report program results description.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Unsafe Stability
+Enumerated_Domain_Value_Definition:
+Phase I Inspection rated the dam unsafe due to inadequate stability.
+Phase I Inspection rated the dam unsafe due to inadequate stability.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Unsafe Spillway Capacity
+Enumerated_Domain_Value_Definition:
+Phase I Inspection rated the dam unsafe due to inadequate spillway capacity.
+Phase I Inspection rated the dam unsafe due to inadequate spillway capacity.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Unsafe Emergency
+Enumerated_Domain_Value_Definition:
+Phase I Inspection rated the dam "Unsafe - Emergency"
+Phase I Inspection rated the dam "Unsafe - Emergency"
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:OK
+Enumerated_Domain_Value_Definition:
+Phase I Inspection found that the dam met safety criteria.
+Phase I Inspection found that the dam met safety criteria.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:None
+Enumerated_Domain_Value_Definition:
+No Phase I inspection report present.
+No Phase I inspection report present.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Null/Blank
+Enumerated_Domain_Value_Definition:
+No Phase I inspection report present
+No Phase I inspection report present
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute:
+Attribute_Label:LAST_INSP
+Attribute_Definition:
+Date of the most recent NYSDEC Dam Safety Section inspection of the dam.
+Date of the most recent NYSDEC Dam Safety Section inspection of the dam.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Dates.
+Attribute:
+Attribute_Label:HAZARD_COD
+Attribute_Definition:
+The hazard classification code of the dam.
+The hazard classification code of the dam.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:A
+Enumerated_Domain_Value_Definition:
+Class "A" or "Low Hazard" dam: A dam failure is unlikely to result in damage to anything more than isolated or unoccupied buildings, undeveloped lands, minor roads such as town or county roads; is unlikely to result in the interruption of important utilities, including water supply, sewage treatment, fuel, power, cable or telephone infrastructure; and/or is otherwise unlikely to pose the threat of personal injury, substantial economic loss or substantial environmental damage.
+Class "A" or "Low Hazard" dam: A dam failure is unlikely to result in damage to anything more than isolated or unoccupied buildings, undeveloped lands, minor roads such as town or county roads; is unlikely to result in the interruption of important utilities, including water supply, sewage treatment, fuel, power, cable or telephone infrastructure; and/or is otherwise unlikely to pose the threat of personal injury, substantial economic loss or substantial environmental damage.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:B
+Enumerated_Domain_Value_Definition:
+Class "B" or "Intermediate Hazard" dam: A dam failure may result in damage to isolated homes, main highways, and minor railroads; may result in the interruption of important utilities, including water supply, sewage treatment, fuel, power, cable or telephone infrastructure; and/or is otherwise likely to pose the threat of personal injury and/or substantial economic loss or substantial environmental damage. Loss of human life is not expected.
+Class "B" or "Intermediate Hazard" dam: A dam failure may result in damage to isolated homes, main highways, and minor railroads; may result in the interruption of important utilities, including water supply, sewage treatment, fuel, power, cable or telephone infrastructure; and/or is otherwise likely to pose the threat of personal injury and/or substantial economic loss or substantial environmental damage. Loss of human life is not expected.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:C
+Enumerated_Domain_Value_Definition:
+Class "C" or "High Hazard" dam: A dam failure may result in widespread or serious damage to home(s); damage to main highways, industrial or commercial buildings, railroads, and/or important utilities, including water supply, sewage treatment, fuel, power, cable or telephone infrastructure; or substantial environmental damage; such that the loss of human life or widespread substantial economic loss is likely.
+Class "C" or "High Hazard" dam: A dam failure may result in widespread or serious damage to home(s); damage to main highways, industrial or commercial buildings, railroads, and/or important utilities, including water supply, sewage treatment, fuel, power, cable or telephone infrastructure; or substantial environmental damage; such that the loss of human life or widespread substantial economic loss is likely.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:D
+Enumerated_Domain_Value_Definition:
+Class "D" or "Negligible or No Hazard" dam: A dam that has been breached or removed, or has failed or otherwise no longer materially impounds waters, or a dam that was planned but never constructed. Class"D" dams are considered to be defunct dams posing negligible or no hazard. The department may retain pertinent records regarding such dams.
+Class "D" or "Negligible or No Hazard" dam: A dam that has been breached or removed, or has failed or otherwise no longer materially impounds waters, or a dam that was planned but never constructed. Class"D" dams are considered to be defunct dams posing negligible or no hazard. The department may retain pertinent records regarding such dams.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:0
+Enumerated_Domain_Value_Definition:
+Hazard Code has not been assigned
+Hazard Code has not been assigned
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute:
+Attribute_Label:QUAD
+Attribute_Definition:
+A letter (A, B, C, D) to designate on which 7.5 quad of the original 15 minute quad the dam is located.
+A letter (A, B, C, D) to designate on which 7.5 quad of the original 15 minute quad the dam is located.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:A
+Enumerated_Domain_Value_Definition:
+Top left.
+Top left.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:B
+Enumerated_Domain_Value_Definition:
+Top right.
+Top right.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:C
+Enumerated_Domain_Value_Definition:
+Bottom left.
+Bottom left.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:D
+Enumerated_Domain_Value_Definition:
+Bottom right.
+Bottom right.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute:
+Attribute_Label:BASIN_NAME
+Attribute_Definition:
+Name of drainage basin in which the dam is located.
+Name of drainage basin in which the dam is located.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Names.
+Attribute:
+Attribute_Label:REGION_NAM
+Attribute_Definition:
+DEC region in which the dam is located.
+DEC region in which the dam is located.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Names.
+Attribute:
+Attribute_Label:DIKE_LENGT
+Attribute_Definition:
+Crest length, in feet, of all closures, retaining or diversion dikes not directly attached to main dam.
+Crest length, in feet, of all closures, retaining or diversion dikes not directly attached to main dam.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Range_Domain:
+Range_Domain_Minimum:0
+Range_Domain_Maximum:9999999
+Attribute_Units_of_Measure:feet
+Attribute:
+Attribute_Label:SPILLWY_T1
+Attribute_Definition:
+Single or service spillway.
+Single or service spillway.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Uncontrolled Overflow
+Enumerated_Domain_Value_Definition:
+Uncontrolled Overflow.
+Uncontrolled Overflow.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Drop Inlet or Riser
+Enumerated_Domain_Value_Definition:
+Drop Inlet or Riser.
+Drop Inlet or Riser.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Drop Structure
+Enumerated_Domain_Value_Definition:
+Drop Structure.
+Drop Structure.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Culvert - No Control
+Enumerated_Domain_Value_Definition:
+Culvert - No Control.
+Culvert - No Control.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Gated
+Enumerated_Domain_Value_Definition:
+Gated.
+Gated.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Uncontrolled Overflow with flashboards
+Enumerated_Domain_Value_Definition:
+Uncontrolled Overflow with flashboards.
+Uncontrolled Overflow with flashboards.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Stop Log sluice
+Enumerated_Domain_Value_Definition:
+Stop Log sluice.
+Stop Log sluice.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Taintor Gate
+Enumerated_Domain_Value_Definition:
+Taintor Gate.
+Taintor Gate.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Other
+Enumerated_Domain_Value_Definition:
+Other.
+Other.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Null/Blank
+Enumerated_Domain_Value_Definition:
+Single or service spillway information is not available
+Single or service spillway information is not available
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:None
+Enumerated_Domain_Value_Definition:
+Single or service spillway information is not available
+Single or service spillway information is not available
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute:
+Attribute_Label:SPILLWY_WD
+Attribute_Definition:
+Total width, in feet, of all spillway facilities.
+Total width, in feet, of all spillway facilities.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Range_Domain:
+Range_Domain_Minimum:0
+Range_Domain_Maximum:9999999999
+Attribute_Units_of_Measure:feet
+Attribute:
+Attribute_Label:SCS
+Attribute_Definition:
+Dam designed or financed by USDA Soil Conservation Service.
+Dam designed or financed by USDA Soil Conservation Service.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Y
+Enumerated_Domain_Value_Definition:
+Dam designed or financed by USDA Soil Conservation Service.
+Dam designed or financed by USDA Soil Conservation Service.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:N
+Enumerated_Domain_Value_Definition:
+Dam not designed or financed by USDA Soil Conservation Service.
+Dam not designed or financed by USDA Soil Conservation Service.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute:
+Attribute_Label:EAP_DOC_DA
+Attribute_Definition:
+Date on which the dams' emergency action plan was instituted or revised.  Required of all high hazard dams.
+Date on which the dams' emergency action plan was instituted or revised. Required of all high hazard dams.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Dates.
+Attribute:
+Attribute_Label:LAST_MODIF
+Attribute_Definition:
+The most recent date information was edited.
+The most recent date information was edited.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Dates.
+Attribute:
+Attribute_Label:SHAPE
+Attribute_Definition:
+Feature geometry.
+Feature geometry.
+Attribute_Definition_Source:
+ESRI
+ESRI
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Coordinates defining the features.
+Attribute:
+Attribute_Label:SPILLWY_T2
+Attribute_Definition:
+Auxillary or emergency spillway.
+Auxillary or emergency spillway.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Grassed Earth Channel
+Enumerated_Domain_Value_Definition:
+Grassed Earth Channel.
+Grassed Earth Channel.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Channel cut in rock
+Enumerated_Domain_Value_Definition:
+Channel cut in rock.
+Channel cut in rock.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Concrete Overflow
+Enumerated_Domain_Value_Definition:
+Concrete Overflow.
+Concrete Overflow.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Concrete Overflow with Flashboards
+Enumerated_Domain_Value_Definition:
+Concrete Overflow with Flashboards.
+Concrete Overflow with Flashboards.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Other
+Enumerated_Domain_Value_Definition:
+Other.
+Other.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:None
+Enumerated_Domain_Value_Definition:
+Dam does not have an auxiliary or emergency spillway
+Dam does not have an auxiliary or emergency spillway
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Null/Blank
+Enumerated_Domain_Value_Definition:
+Auxiliary or emergency spillway information is not available
+Auxiliary or emergency spillway information is not available
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute:
+Attribute_Label:EAP_STATUS
+Attribute_Definition:
+Emergency Action Plan Status.
+Emergency Action Plan Status.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:On file
+Enumerated_Domain_Value_Definition:
+EAP is on file
+EAP is on file
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:None
+Enumerated_Domain_Value_Definition:
+There is no EAP on file.
+There is no EAP on file.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute:
+Attribute_Label:EAP_LST_EX
+Attribute_Definition:
+Last time an EAP was exercised.
+Last time an EAP was exercised.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Dates.
+Attribute:
+Attribute_Label:EAP_REQ
+Attribute_Definition:
+An EAP is required for this dam.
+An EAP is required for this dam.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Y
+Enumerated_Domain_Value_Definition:
+Yes.  An EAP is required.
+Yes. An EAP is required.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:N
+Enumerated_Domain_Value_Definition:
+No.  An EAP is not required.
+No. An EAP is not required.
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute:
+Attribute_Label:LAT_DD
+Attribute_Definition:
+Lattitude in decimal degrees.
+Lattitude in decimal degrees.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Range_Domain:
+Range_Domain_Minimum:0
+Range_Domain_Maximum:90
+Attribute:
+Attribute_Label:LON_DD
+Attribute_Definition:
+Longitude in decimal degrees.
+Longitude in decimal degrees.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Range_Domain:
+Range_Domain_Minimum:0
+Range_Domain_Maximum:180
+Attribute:
+Attribute_Label:FERC_STATU
+Attribute_Definition:
+Federal Energy Regulatory Commission status, if applicable.
+Federal Energy Regulatory Commission status, if applicable.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:A
+Enumerated_Domain_Value_Definition:
+Application submitted
+Application submitted
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:E
+Enumerated_Domain_Value_Definition:
+FERC Licensed Exempt Dam
+FERC Licensed Exempt Dam
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:L
+Enumerated_Domain_Value_Definition:
+FERC Licensed Dam
+FERC Licensed Dam
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Enumerated_Domain:
+Enumerated_Domain_Value:Null
+Enumerated_Domain_Value_Definition:
+Not Applicable
+Not Applicable
+Enumerated_Domain_Value_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute:
+Attribute_Label:NR_CITY_NA
+Attribute_Definition:
+Official name of the nearest downstream community.
+Official name of the nearest downstream community.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Names.
+Attribute:
+Attribute_Label:ENG_ASSESS
+Attribute_Definition:
+Date the most recent Engineering Assessment was received by the DEC Dam Safety program.
+Date the most recent Engineering Assessment was received by the DEC Dam Safety program.
+Attribute_Definition_Source:
+NYSDEC
+NYSDEC
+Attribute_Domain_Values:
+Unrepresentable_Domain:
+Dates.
+Back to Top
+Distribution_Information:
+Distributor:
+Contact_Information:
+Contact_Organization_Primary:
+Contact_Organization:New York State Department of Environmental Conservation
+Contact_Person:Division of Information Services, GIS Unit
+Contact_Address:
+Address_Type:mailing and physical address
+Address:
+625 Broadway
+625 Broadway
+Address:
+3rd Floor
+3rd Floor
+City:Albany
+State_or_Province:NY
+Postal_Code:12233-2750
+Country:USA
+Contact_Voice_Telephone:(518) 402-9860
+Contact_Facsimile_Telephone:(518) 402-9031
+Contact_Electronic_Mail_Address:enterpriseGIS@gw.dec.state.ny.us
+Resource_Description:New York State Inventory of Dams
+Distribution_Liability:
+New York State Department of Environmental Conservation (NYSDEC) provides these geographic data "as is".  NYSDEC makes no guarantee or warranty concerning the accuracy of information contained in the geographic data.  NYSDEC further makes no warranty, either expressed or implied, regarding the condition of the product or its fitness for any particular purpose.  The burden for determining fitness for use lies entirely with the user.  Although these data have been processed successfully on a computer system at NYSDEC, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes.  This disclaimer applies both to individual use of the data and aggregate use with other data.  It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.  NYSDEC shall not be held liable for improper or incorrect use od the data described and/or contained herein.
+New York State Department of Environmental Conservation (NYSDEC) provides these geographic data "as is". NYSDEC makes no guarantee or warranty concerning the accuracy of information contained in the geographic data. NYSDEC further makes no warranty, either expressed or implied, regarding the condition of the product or its fitness for any particular purpose. The burden for determining fitness for use lies entirely with the user. Although these data have been processed successfully on a computer system at NYSDEC, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes. This disclaimer applies both to individual use of the data and aggregate use with other data. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. NYSDEC shall not be held liable for improper or incorrect use od the data described and/or contained herein.
+Back to Top
+Metadata_Reference_Information:
+Metadata_Date:20140417
+Metadata_Contact:
+Contact_Information:
+Contact_Organization_Primary:
+Contact_Organization:New York State Department of Environmental Conservation
+Contact_Person:Division of Information Services, GIS Unit
+Contact_Address:
+Address_Type:mailing and physical address
+Address:
+625 Broadway
+625 Broadway
+Address:
+3rd Floor
+3rd Floor
+City:Albany
+State_or_Province:NY
+Postal_Code:12233-2750
+Country:USA
+Contact_Voice_Telephone:(518) 402-9860
+Contact_Facsimile_Telephone:(518) 402-9031
+Contact_Electronic_Mail_Address:enterpriseGIS@gw.dec.state.ny.us
+Metadata_Standard_Name:FGDC Content Standards for Digital Geospatial Metadata
+Metadata_Standard_Version:FGDC-STD-001-1998
+Metadata_Time_Convention:local time
+Back to Top
+
+
+Metadata stylesheets are provided courtesy of ESRI. Copyright (c) 2000-2002, Environmental Systems Research Institute, Inc. All rights reserved.
