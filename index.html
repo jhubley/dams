@@ -47,9 +47,6 @@ body {
 	color: #ccc;
 	text-decoration: none;
 }
-#leftbox{
-	float:left;
-}
 .d3-tip {
   line-height: 1;
   font-weight: normal;
@@ -101,14 +98,8 @@ button#zoom_out{
 	right: 20px;
 	z-index:9999
 }
-h3{
-	font-size: 16px !important;
-	font-weight:normal !important;
-	margin: 0px;
-	padding:8px 0px 8px 20px;
-	background:#333;
-	width:280px;
-	border-bottom:1px solid #222;
+h1{
+	margin-top: 0px;
 }
 
 #legend {
@@ -177,8 +168,8 @@ h3{
 	</ul>
 </div>
 <div class="etc">
-	<p><br/>Width and height of each rectangles is<br/>proportionate to dam length and dam height<br/>
-		(5% of actual)
+	<p><br/>Width and height of each line is<br/>proportionate to dam length and dam height<br/>
+		(5% of actual). Line angle is determined by surface area
 	</p>
 </div>
 </div>
@@ -230,21 +221,22 @@ points.call(tip);
 		
 zoomed();
 function createMap(dataset) {
-	d3.select("#points").selectAll("circle").data(dataset) //plotted locations on map
+	d3.select("#points").selectAll("line").data(dataset) //plotted locations on map
 	.enter()
-	.append("rect")
-	.style("fill", function(d){if (d.HAZARD_COD == "A"){return "#2cd000"} // Class A is low hazard
+	.append("line")
+	.style("stroke", function(d){if (d.HAZARD_COD == "A"){return "#2cd000"} // Class A is low hazard
 	else if (d.HAZARD_COD == "B"){return "#fffc00"} // Class B is intermediate hazard
 	else if (d.HAZARD_COD == "C"){return "#ff0000"} // Class C is high hazard
 	else if (d.HAZARD_COD == "D"){return "#00aee0"} // Class D is negligible or no hazard
 	else{return "#888";}	// Hazard Code has not been assigned
 	 })
+	.style("stroke-width", function(d){return d.DAM_HEIGHT / 20})
 	.attr("id", "dam")
 	.attr("class", function(d) { return d.PURPOSES })
-	.attr("x", function(d) {return projection([d.longitude,d.latitude])[0]})
-	.attr("y", function(d) {return projection([d.longitude,d.latitude])[1]})
-	.attr("width", function(d){return d.DAM_LENGTH /20})
-	.attr("height", function(d){return d.DAM_HEIGHT / 20})
+	.attr("x1", function(d) {return projection([d.longitude,d.latitude])[0]})
+	.attr("y1", function(d) {return projection([d.longitude,d.latitude])[1]})
+	.attr("x2", function(d){return projection([d.longitude,d.latitude])[0] + d.DAM_LENGTH / 20})
+	.attr("y2", function(d){return projection([d.longitude,d.latitude])[1] + d.SURFACE_AR / 20})
 	.on('mouseover', tip.show)
 	.on('mouseout', tip.hide);
 	zoomed();
@@ -258,11 +250,11 @@ function zoomed() {
   projection
       .scale(zoom.scale() / 2 / Math.PI)
       .translate(zoom.translate());
-			d3.selectAll("#points").selectAll("rect")
-			.attr("x", function(d) {return projection([d.longitude,d.latitude])[0]})
-			.attr("y", function(d) {return projection([d.longitude,d.latitude])[1]})
-			.attr("width", function(d){return d.DAM_LENGTH /20})
-			.attr("height", function(d){return d.DAM_HEIGHT / 20})
+			d3.selectAll("#points").selectAll("line")
+			.attr("x1", function(d) {return projection([d.longitude,d.latitude])[0]})
+			.attr("y1", function(d) {return projection([d.longitude,d.latitude])[1]})
+			.attr("x2", function(d){return projection([d.longitude,d.latitude])[0] + d.DAM_LENGTH /20})
+			.attr("y2", function(d){return projection([d.longitude,d.latitude])[1] + d.SURFACE_AR / 20})
   var image = layer
       .style(prefix + "transform", matrix3d(tiles.scale, tiles.translate))
     .selectAll(".tile")
