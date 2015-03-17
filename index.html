@@ -247,7 +247,7 @@ var info = map.append("div")
 var tip = d3.tip()
 		.attr('class', 'd3-tip')
 		.offset([-10, 0])
-		.html(function(d){if (d.YEARBUILT > 0){return d.NAME_ONE + "<br/> " + d.RIVER_STRE + "<br/>" + d.BASIN_NAME + " basin<br/>" + d.YEARBUILT}else{return d.NAME_ONE + "<br/> " + d.RIVER_STRE + "<br/>" + d.BASIN_NAME + " basin<br/>Date unknown";}})
+		.html(function(d){if (d.YEARBUILT > 0){return d.NAME_ONE + "<br/> " + d.RIVER_STRE + "<br/>" + d.BASIN_NAME + " basin<br/>Built: " + d.YEARBUILT}else{return d.NAME_ONE + "<br/> " + d.RIVER_STRE + "<br/>" + d.BASIN_NAME + " basin<br/>Date unknown";}})
 						
 points.call(tip);
 		
@@ -291,7 +291,7 @@ function zoomed() {
 			.attr("x1", function(d) {return projection([d.longitude,d.latitude])[0]})
 			.attr("y1", function(d) {return projection([d.longitude,d.latitude])[1]})
 			.attr("x2", function(d){return projection([d.longitude,d.latitude])[0] + d.DAM_LENGTH /20})
-			.attr("y2", function(d){return projection([d.longitude,d.latitude])[1] + d.DAM_HEIGHT / 20})
+			.attr("y2", function(d){return projection([d.longitude,d.latitude])[1] + d.DAM_HEIGHT/20})
   var image = layer
       .style(prefix + "transform", matrix3d(tiles.scale, tiles.translate))
     .selectAll(".tile")
